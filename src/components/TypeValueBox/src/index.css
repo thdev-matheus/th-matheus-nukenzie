@@ -1,0 +1,51 @@
+.boxType {
+     display: flex;
+     flex-direction: column;
+}
+
+.inputType {
+     width: 100px;
+     height: 50px;
+     padding-left: 10px;
+     font-size: 16px;
+     border: none;
+     border-radius: 10px;
+     -webkit-appearance: none;
+     color: #5b6166;
+     background-color: #f8f9fa;
+     background-image: url("./img/angleDown.png");
+     background-repeat: no-repeat;
+     background-position: 80px;
+}
+
+.inputType:hover {
+     cursor: pointer;
+}
+
+.opt {
+     font-family: nunito;
+     font-size: 12pt;
+     height: 30px;
+}
+
+@media (min-width: 1000px) {
+     .boxType {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .inputType {
+          width: 130px;
+          height: 50px;
+          padding-left: 20px;
+          font-size: 16px;
+          border: none;
+          border-radius: 10px;
+          -webkit-appearance: none;
+          color: #5b6166;
+          background-color: #f8f9fa;
+          background-image: url("./img/angleDown.png");
+          background-repeat: no-repeat;
+          background-position: 110px;
+     }
+}

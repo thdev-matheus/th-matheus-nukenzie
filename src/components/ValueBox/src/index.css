@@ -1,0 +1,47 @@
+.boxValue {
+     display: flex;
+     flex-direction: column;
+}
+
+.valueInput {
+     width: 100px;
+     height: 50px;
+     padding-left: 10px;
+     font-size: 16px;
+     border: none;
+     border-radius: 10px;
+     color: #5b6166;
+     background-color: #f8f9fa;
+     background-image: url("./img/money.png");
+     background-repeat: no-repeat;
+     background-position: 70px;
+}
+
+.valueInput::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+}
+
+@media (min-width: 1000px) {
+     .boxValue {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .valueInput {
+          width: 130px;
+          height: 50px;
+          padding-left: 20px;
+          font-size: 16px;
+          border: none;
+          border-radius: 10px;
+          color: #5b6166;
+          background-color: #f8f9fa;
+          background-image: url("./img/money.png");
+          background-repeat: no-repeat;
+          background-position: 100px;
+     }
+
+     .valueInput::-webkit-inner-spin-button {
+          -webkit-appearance: none;
+     }
+}
